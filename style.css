@@ -2,7 +2,7 @@
   .hamburger{
     display: block;
     position: absolute;
-    top: 6px;
+    top: 17px;
     right: 20px;
   }
 
@@ -28,11 +28,36 @@
     text-align: center;
     position: relative;
     left: -.25em;
-    border-top: 1px solid grey;
+    border-top: 1px solid #6f6277;
   }
   .navbar a{
     display:block;
     text-align: center;
+  }
+
+  .welcome{
+    padding: 1em;
+  }
+
+  .container img{
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+
+  .intro{
+    text-align: center;
+  }
+
+  .container .portrait{
+    margin: 0 auto;
+  }
+
+  .container{
+    text-align:center;
+  }
+  .container p{
+    text-align:left;
   }
 }
 
@@ -79,12 +104,87 @@
     display:block;
     float:none;
   }
+
+  .welcome{
+    padding: 2em 3em 2em 3em;
+  }
+
+  .about{
+    padding: 16px;
+    position:relative;
+    left: 5%;
+    top: 5%;
+    width: 40%;
+  }
+
+  .intro{
+    position:relative;
+    left: 5%;
+    top: 15%;
+  }
+  .welcome h1{
+    font-size: 72px;
+    margin-bottom: 20px;
+
+  }
+  .container img{
+    float:right;
+    position:relative;
+    top: 5%;
+    max-width: 450px;
+  }
+  .three-grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 5%;
+    padding: 2em;
+  }
+
+  .three-a{
+    grid-column: 1;
+  }
+
+  .three-b{
+    grid-column: 2;
+  }
+  .three-c{
+    grid-column: 3;
+  }
+
+  .container .portrait{
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+
 }
 
 body{
   margin:0;
   width: 100%;
+  background-color: #6f6277;;
+  color: #6f6277;
   font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+  position:fixed;
+  bottom:0;
+  margin: 0;
+  width: 100%;
+  background-color: #6f6277;
+  color: white;
+  text-align: center;
+  z-index: 5;
+}
+
+footer i{
+  padding: 10px;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 a{
@@ -95,6 +195,21 @@ a{
 ul{
   padding: 0;
   list-style-type: none;
+}
+
+button{
+  font-size: 1em;
+  text-transform: uppercase;
+  padding:  .5em 1em .5em 1em;
+  border-radius: 5px;
+  border: 3px solid white;
+  color: white;
+  letter-spacing: 2px;
+  background-color: #6f6277;
+  -moz-box-shadow: 10px 10px white;
+  -webkit-box-shadow: 10px 10px white;
+  -o-box-shadow: 10px 10px white;
+  box-shadow: 10px 10px white;
 }
 
 .hamburger{
@@ -118,9 +233,13 @@ ul{
 .navbar{
   display: grid;
   color: white;
-  background-color: grey;
-
+  background-color: #6f6277;
+  position: fixed;
+  top:0;
+  width: 100%;
   font-family: 'Nunito Sans', sans-serif;
+  z-index: 5;
+  border-bottom: 1px solid #8d7b99;
 
 }
 
@@ -129,9 +248,93 @@ ul{
 }
 
 .dropdown-content{
-  color: grey;
-  background-color:lightgrey;
+  color: #6f6277;
+  background-color: white;
+  border: 1px solid #6f6277;
   display:none;
   min-width: 100px;
   margin:0;
+}
+
+.content{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 4em;
+}
+
+.container{
+  background-color:white;
+  border-radius: 10px;
+  margin-top: 16px;
+  border: 1px solid #8d7b99;
+  padding: 1em;
+}
+
+.sectionHeader h2,h3{
+  color: white;
+}
+.container h1, h2, h3, h4, h5, h6{
+  color: black;
+}
+
+
+.container button{
+  color: black;
+  background-color: white;
+  border: 3px solid #6f6277;
+  -moz-box-shadow: 10px 10px #6f6277;
+  -webkit-box-shadow: 10px 10px #6f6277;
+  -o-box-shadow: 10px 10px #6f6277;
+  box-shadow: 10px 10px #6f6277;
+}
+
+.first{
+  margin-top: 100px;
+  /* height: 70vh; */
+  display: none;
+}
+
+.welcome{
+  margin-top: 100px;
+  height: 70vh;
+  display: none;
+}
+
+.intro{
+  /* float:left; */
+  max-width: 500px;
+}
+
+
+
+.section{
+  position: relative;
+  top: 5em;
+  margin: 0 auto;
+  width: inherit;
+}
+
+
+
+.sectionHeader{
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  letter-spacing: 3px;
+}
+
+
+
+.contactSection{
+  position:absolute;
+  top: 200vh;
+  margin: 0 auto;
+  margin-bottom: 4em;
+  width: inherit;
+}
+
+.portrait{
+  border-radius: 50%;
 }
