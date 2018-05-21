@@ -28,7 +28,7 @@
     text-align: center;
     position: relative;
     left: -.25em;
-    border-top: 1px solid #6f6277;
+    border-top: 1px solid #e06b1d;
   }
   .navbar a{
     display:block;
@@ -161,8 +161,8 @@
 body{
   margin:0;
   width: 100%;
-  background-color: #6f6277;;
-  color: #6f6277;
+  background-color: #e06b1d;
+  color: #e06b1d;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -171,7 +171,7 @@ footer{
   bottom:0;
   margin: 0;
   width: 100%;
-  background-color: #6f6277;
+  background-color: #e06b1d;
   color: white;
   text-align: center;
   z-index: 5;
@@ -205,7 +205,7 @@ button{
   border: 3px solid white;
   color: white;
   letter-spacing: 2px;
-  background-color: #6f6277;
+  background-color: #e06b1d;
   -moz-box-shadow: 10px 10px white;
   -webkit-box-shadow: 10px 10px white;
   -o-box-shadow: 10px 10px white;
@@ -233,13 +233,13 @@ button{
 .navbar{
   display: grid;
   color: white;
-  background-color: #6f6277;
+  background-color: #e06b1d;
   position: fixed;
   top:0;
   width: 100%;
   font-family: 'Nunito Sans', sans-serif;
   z-index: 5;
-  border-bottom: 1px solid #8d7b99;
+  border-bottom: 1px solid #fc8e3a;
 
 }
 
@@ -248,9 +248,9 @@ button{
 }
 
 .dropdown-content{
-  color: #6f6277;
+  color: #e06b1d;
   background-color: white;
-  border: 1px solid #6f6277;
+  border: 1px solid #e06b1d;
   display:none;
   min-width: 100px;
   margin:0;
@@ -266,7 +266,7 @@ button{
   background-color:white;
   border-radius: 10px;
   margin-top: 16px;
-  border: 1px solid #8d7b99;
+  border: 1px solid #fc8e3a;
   padding: 1em;
 }
 
@@ -281,11 +281,11 @@ button{
 .container button{
   color: black;
   background-color: white;
-  border: 3px solid #6f6277;
-  -moz-box-shadow: 10px 10px #6f6277;
-  -webkit-box-shadow: 10px 10px #6f6277;
-  -o-box-shadow: 10px 10px #6f6277;
-  box-shadow: 10px 10px #6f6277;
+  border: 3px solid #e06b1d;
+  -moz-box-shadow: 10px 10px #e06b1d;
+  -webkit-box-shadow: 10px 10px #e06b1d;
+  -o-box-shadow: 10px 10px #e06b1d;
+  box-shadow: 10px 10px #e06b1d;
 }
 
 .first{
